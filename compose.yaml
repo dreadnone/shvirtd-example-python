@@ -17,7 +17,7 @@ services:
       DB_HOST: db
       DB_USER: app
       DB_PASSWORD: QwErTy1234
-      DB_NAME: virt
+      DB_NAME: virtd
     restart: always
     depends_on:
       db:
@@ -36,7 +36,7 @@ services:
         ipv4_address: 172.20.0.10
     environment:
       MYSQL_ROOT_PASSWORD: YtReWq4321
-      MYSQL_DATABASE: virt
+      MYSQL_DATABASE: virtd
       MYSQL_USER: app
       MYSQL_PASSWORD: QwErTy1234
     restart: always
